@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TM Development News
-subtitle: 'Building the future'
-description: 'This is a news site for the TM Development team.'
+title: أخبار تطوير منصتنا
+subtitle: 'نبني للمستقبل'
+description: 'أحدث الاخبار والتحديثات الخاصة بمنصتنا.'
 keywords: 'TM, Development, News'
-author: Development Team
-language: en
+author: فريق التطوير
+language: ar
 timezone: 'Europe/Istanbul'
 
 # URL
