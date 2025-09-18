@@ -44,7 +44,7 @@ else if is_page()
     if page.updated
       span.post-meta
         | آخر تحديث في
-        time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' YYYY/MM/DD') + ' الساعة ' + full_date(new Date(page.updated), 'H:mm')
+        time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' YYYY/MM/DD')
     != page.content
   include _comments
 else if is_post()
@@ -56,6 +56,6 @@ else if is_post()
       if page.updated
         br
         | آخر تحديث في
-        time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' YYYY/MM/DD') + ' الساعة ' + full_date(new Date(page.updated), 'H:mm')
+        time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' YYYY/MM/DD')
     != page.content
   include _comments
